@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:700,900);
+@import url(https://fonts.googleapis.com/css?family=Francois+One);
+
+body {
+  background:url("..//image/image2.jpg") no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+h1 {
+  font-family: 'lato';
+  font-weight:700;
+  font-size:36px;
+  color:#4a4a4a;
+  margin:50px 50px;
+}
+
+#control {
+  color:#000;
+  text-transform: uppercase;
+}
+
+h2{
+  font-family:'lato';
+  font-weight: 900;
+  font-size:30px;
+  color:#4a4a4a;
+  text-align: center;
+  letter-spacing: 3px;
+
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+  color: #05619B;
+  font-family:'Francois One';
+  font-size:25px;
+  line-height: 80px;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  margin-top: 40px;
+}
+.fa {
+  margin-left: 20px;
+}
+
+@media (max-width: 1051px) {
+a {
+  font-size: 20px;
+  line-height: 60px;
+}
+}
+@media (max-width: 853px) {
+  .one-half.column {
+    width: 100%;
+    margin-left: 0;
+  }
+}
